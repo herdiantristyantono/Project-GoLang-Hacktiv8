@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd501604-53d4-4fbc-9689-943364ef2151" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/gambar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/golangclass.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/var/templates/aboutlogged.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/var/templates/articles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/var/templates/contactlogged.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/var/templates/homelogged.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/aboutlogged.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/contactlogged.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/homelogged.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/logout.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProjectGO" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProjectGO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/var/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/var/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/var/templates/addarticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/var/templates/addarticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/var/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/var/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/var/templates/editarticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/var/templates/editarticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/var/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/var/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/var/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/var/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/about.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/about.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/articles.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/articles.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/home.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/home.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/homebackup.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/login.go" afterDir="false" />
-    </list>
+    <list default="true" id="bd501604-53d4-4fbc-9689-943364ef2151" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
