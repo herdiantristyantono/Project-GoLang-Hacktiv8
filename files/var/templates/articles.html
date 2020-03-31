@@ -41,19 +41,16 @@
     {{range .}}
     <div class="w3-container w3-padding-32" id="projects">
         <h5 class="w3-border-bottom w3-border-light-grey w3-padding-16"> {{.Contents}}
-            <a href="articles/publish?id={{.ArticleId}}" name="id" id="demo" class="w3-bar-item w3-button w3-right w3-hide-small" onclick="myFunction()">Publish</a>
-            <a href="articles/unpublish?id={{.ArticleId}}" name="contents" id="contents" class="w3-bar-item w3-button w3-right w3-hide-small">Unpublish</a>
-            <a href="articles/remove?id={{.ArticleId}}" name="id" id="id" class="w3-bar-item w3-button w3-right w3-hide-small">Remove</a>
-            <a href="articles/edit?id={{.ArticleId}}" name="contents" id="contents" class="w3-bar-item w3-button w3-right w3-hide-small">Edit</a>
+            <a href="articles/remove?id={{.ArticleId}}" name="id" id="id" class="w3-bar-item w3-button w3-right w3-hide-small" style="background-color: #f21000">Remove</a>
+            <a href="articles/edit?id={{.ArticleId}}" name="contents" id="contents" class="w3-bar-item w3-button w3-right w3-hide-small" style="background-color: #fceb65">Edit</a>
+            {{ if .Published }}
+                <a href="articles/unpublish?id={{.ArticleId}}" name="contents" id="contents" class="w3-bar-item w3-button w3-right w3-hide-small" style="background-color: #dfede0">Unpublish</a>
+            {{ else }}
+                <a href="articles/publish?id={{.ArticleId}}" name="id" id="demo" class="w3-bar-item w3-button w3-right w3-hide-small" style="background-color: #baeaf5">Publish</a>
+            {{ end }}
         </h5>
     </div>
     {{end}}
 </div>
 </body>
 </html>
-<!-- <p id="demo" onclick="myFunction()">Click me to change my text color.</p> -->
-<script>
-    function myFunction() {
-        document.getElementById("demo").style.color = "red";
-    }
-</script>
