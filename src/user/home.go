@@ -1,7 +1,6 @@
 package user
 
 import (
-	"fmt"
 	"log"
 	"net/http"
 )
@@ -14,13 +13,11 @@ type Articles struct {
 }
 
 func (m *Module) HomeUser(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("MASUK 0")
-	rows, err := m.Queries.SelectArticles.Query()
+	rows, err := m.Queries.SelectHome.Query()
 	if err != nil {
 		log.Println("Failed to insert data")
 		return
 	}
-	fmt.Println("MASUK 1")
 
 	var rowsScanArr []Articles
 
@@ -35,20 +32,11 @@ func (m *Module) HomeUser(w http.ResponseWriter, r *http.Request) {
 
 		// Append for ervery next row
 		rowsScanArr = append(rowsScanArr, rowsScan)
-
-		//log.Println("rowsScanArr :", rowsScanArr)
-		//log.Println("rowsScanArr[0] :", rowsScanArr[0])
-		//log.Println("rowsScanArr[0].Contents :", rowsScanArr[0].Contents)
-
 	}
 
-	log.Println("berhasil insert data")
-
-	//if r.Method == "GET" {
 	err = m.Template.ExecuteTemplate(w, "home.html", rowsScanArr)
 	if err != nil {
 		log.Println(`error execute template login, err : `, err)
 		return
-		//	} else {
 	}
 }
