@@ -23,6 +23,10 @@ func main() {
 
 	http.HandleFunc("/", user.HomeUser)
 	http.HandleFunc("/homelogged", user.HomeUserLogged)
+	http.HandleFunc("/about", user.AboutUser)
+	http.HandleFunc("/aboutlogged", user.AboutUserLogged)
+	http.HandleFunc("/contact", user.ContactUser)
+	http.HandleFunc("/contactlogged", user.ContactUserLogged)
 	http.HandleFunc("/articles", user.ArticlesUser)
 	http.HandleFunc("/articles/add", user.AddArticlesUser)
 	http.HandleFunc("/articles/edit", user.EditArticlesUser)

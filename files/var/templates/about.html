@@ -12,8 +12,8 @@
         <a href="#home" class="w3-bar-item w3-button"><b>Final Project</b> Hacktiv8</a>
         <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right w3-hide-small">
-            <a href="#home" class="w3-bar-item w3-button">Home</a>
-            <a href="about" class="w3-bar-item w3-button">About</a>
+            <a href="home" class="w3-bar-item w3-button">Articles</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
             <a href="contact" class="w3-bar-item w3-button">Contact</a>
             <a href="login" class="w3-bar-item w3-button">Login</a>
         </div>
@@ -31,17 +31,15 @@
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-    <!-- Project Section -->
-    <div class="w3-container w3-padding-32" id="projects">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Home</h3>
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-center" id="about">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+        <p>
+            Golang final project with hacktiv8 created by Herdian Tristyantono
+        </p>
     </div>
 
-    {{range .}}
-    <div class="w3-container w3-padding-32" id="projects">
-        <h5 class="w3-border-bottom w3-border-light-grey w3-padding-16"> {{.Contents}}
-        </h5>
-    </div>
-    {{end}}
+    <!-- End page content -->
 </div>
 </body>
 </html>
